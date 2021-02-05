@@ -1,4 +1,4 @@
-import phone from './Phone.svg';
+import whatsApp from './whatsApp.svg';
 import mail from './Mail.svg';
 import linkedin from './LinkedIn.svg';
 import logo from './BCM-Logo.svg';
@@ -14,7 +14,7 @@ function App() {
         <div id="About">
           <h2>Marcelo Borrelli</h2>
           <div className="contact-links">
-            <a href="tel:3057231684"><img src={phone} alt="Phone" /></a>
+            <a href="tel:3057231684"><img src={whatsApp} alt="Phone" /></a>
             <a href="mailto:marcelo.borrelli@insigneo.com"><img src={mail} alt="Email" /></a>
             <a href="https://www.linkedin.com/in/marcelo-b-7a771a121/" target="_blank"><img src={linkedin} alt="LinkedIn" /></a>
           </div>
