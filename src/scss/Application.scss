@@ -1,0 +1,9 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+@import 'variables.scss';
+@import 'mixins.scss';
+@import '../components/App/App.scss';
