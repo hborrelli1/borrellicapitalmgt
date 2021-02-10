@@ -5,7 +5,7 @@ import whatsApp from '../../assets/whatsApp.svg';
 
 const Contact = () => {
   return (
-    <div className="contact container">
+    <div id="Contact" className="contact container">
       <div className="section-header">
         <h3>Contact</h3>
         <h2>Marcelo Borrelli</h2>

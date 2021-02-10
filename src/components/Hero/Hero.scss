@@ -1,0 +1,14 @@
+.hero {
+  background-image: url('../../assets/images/Miami-Background.png');
+  background-size:cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .content {
+    width: 50%;
+    text-align: center;
+  }
+}

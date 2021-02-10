@@ -1,4 +1,4 @@
-import logo from '../../assets/BCM-Logo.svg';
+import logo from '../../assets/bcm-logo-dark.svg';
 
 const Nav = () => {
   return (
@@ -7,9 +7,9 @@ const Nav = () => {
         <img src={logo} alt="Borrelli Capital Management" />
       </div>
       <nav>
-        <button>About</button>
-        <button>Services</button>
-        <button>Contact</button>
+        <a href="#About">About</a>
+        <a href="#Services">Services</a>
+        <a href="#Contact">Contact</a>
       </nav>
     </div>
   )
