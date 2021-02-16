@@ -14,4 +14,14 @@ footer {
       color: $hwb-green;
     }
   }
+  @media  screen and (max-width: 440px) {
+    flex-direction: column;
+    p, .hwbCreative {
+      width: 100% !important;
+      text-align: center;
+    }
+    .hwbCreative {
+      margin-top: 10px;
+    }
+  }
 }
