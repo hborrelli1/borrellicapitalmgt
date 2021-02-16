@@ -1,3 +1,17 @@
 footer {
   background-color: $dark-gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  p {
+    color: $lightest-gray;
+    font-size: 14px;
+    letter-spacing: .5px;
+  }
+  .hwbCreative {
+    text-align: right;
+    a {
+      color: $hwb-green;
+    }
+  }
 }

@@ -1,0 +1,54 @@
+.contact {
+  background-color: $dark-green;
+  .content {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    .contact-info {
+      width: 100%;
+      max-width: 800px;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+      color: #fff;
+      ul {
+        width: 100%;
+        display: flex;
+        flex-flow: wrap;
+        li {
+          width: 50%;
+          list-style-type: none;
+          display: flex;
+          padding: 20px;
+          a {
+            display: flex;
+            text-decoration: none;
+            img {
+              width: 22px;
+              height: 22px;
+              margin-right: 20px;
+            }
+            span {
+              width: calc(100% - 20px);
+              margin-right: 20px;
+              color: #fff;
+            }
+          }
+          &:nth-child(odd) {
+            border-right: 1px solid #fff;
+            justify-content: flex-end;
+            a {
+              flex-flow: row-reverse;
+              span {
+                margin-right: 20px;
+              }
+            }
+          }
+          &:hover {
+            opacity: .7;
+          }
+        }
+      }
+    }
+  }
+}
