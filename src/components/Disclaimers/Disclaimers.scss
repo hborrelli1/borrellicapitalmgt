@@ -1,0 +1,10 @@
+.disclaimers {
+  background-color: $light-gray;
+  .content {
+    // max-width: 600px;
+    .sub-title,
+    p, a {
+      color: $lightest-gray;
+    }
+  }
+}

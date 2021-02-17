@@ -6,10 +6,6 @@ import Contact from '../Contact/Contact';
 import Disclaimers from '../Disclaimers/Disclaimers';
 import Footer from '../Footer/Footer';
 
-// import whatsApp from '../../assets/whatsApp.svg';
-// import mail from '../../assets/Mail.svg';
-// import linkedin from '../../assets/LinkedIn.svg';
-// import logo from '../../assets/BCM-Logo.svg';
 import '../../scss/Application.scss';
 
 function App() {
