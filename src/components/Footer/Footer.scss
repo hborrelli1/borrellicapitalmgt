@@ -1,0 +1,27 @@
+footer {
+  background-color: $dark-gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  p {
+    color: $lightest-gray;
+    font-size: 14px;
+    letter-spacing: .5px;
+  }
+  .hwbCreative {
+    text-align: right;
+    a {
+      color: $hwb-green;
+    }
+  }
+  @media  screen and (max-width: 440px) {
+    flex-direction: column;
+    p, .hwbCreative {
+      width: 100% !important;
+      text-align: center;
+    }
+    .hwbCreative {
+      margin-top: 10px;
+    }
+  }
+}
