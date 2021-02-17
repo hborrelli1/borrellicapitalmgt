@@ -1,10 +1,13 @@
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import logo from '../../assets/bcm-logo-dark.svg';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import logo from '../../assets/bcm-logo-dark@2x.png';
 
 const Nav = () => {
+  const handleScrollTop = () => {
+    window.scrollTo(0,0)
+  }
   return (
     <div className="header">
-      <div className="logo">
+      <div className="logo" onClick={handleScrollTop}>
         <img src={logo} alt="Borrelli Capital Management" />
       </div>
       <nav>
