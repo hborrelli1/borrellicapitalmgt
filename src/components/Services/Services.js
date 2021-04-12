@@ -16,7 +16,7 @@ const Services = () => {
           <ul>
             <li>Fixed Income Investments</li>
             <li>Exchange Traded Funds</li>
-            <li>Equities Traded Funds</li>
+            <li>Mutual Funds</li>
             <li>Equities</li>
           </ul>
           <ul>
