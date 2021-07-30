@@ -3,6 +3,7 @@ import Hero from '../Hero/Hero';
 import About from '../About/About';
 import Services from '../Services/Services';
 import Contact from '../Contact/Contact';
+import CustodyClearing from '../CustodyClearing/CustodyClearing';
 import Disclaimers from '../Disclaimers/Disclaimers';
 import Footer from '../Footer/Footer';
 
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Services />
       <Contact />
+      <CustodyClearing />
       <Disclaimers />
       <Footer />
     </div>
