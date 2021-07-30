@@ -17,6 +17,7 @@ const Nav = () => {
       <nav>
         <AnchorLink href="#About" offset='80'>About</AnchorLink>
         <AnchorLink href="#Services" offset='80'>Services</AnchorLink>
+        <AnchorLink href="#CustodyClearing" offset='80'>Custody</AnchorLink>
         <AnchorLink href="#Contact" offset='80'>Contact</AnchorLink>
       </nav>
     </div>
