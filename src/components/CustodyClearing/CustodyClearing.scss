@@ -46,19 +46,6 @@
       }
     }
   }
-  // @media  screen and (max-width: 900px) {
-  //   .photo-col,
-  //   .content-col {
-  //     padding: 20px;
-  //   }
-  //   .photo-col {
-  //     align-items: flex-start;
-  //     padding-left: 0px;
-  //   }
-  //   .content-col {
-  //     padding-right: 0px;
-  //   }
-  // }
   @media  screen and (max-width: 900px) {
     .content {
       flex-flow:column;
