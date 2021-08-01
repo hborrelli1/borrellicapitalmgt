@@ -20,7 +20,7 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/marcelo-b-7a771a121/" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/marcelo-borrelli-bcm/" target="_blank" rel="noreferrer">
                 <img src={linkedinIcon} alt="LinkedIn" />
                 <span>LinkedIn</span>
               </a>
