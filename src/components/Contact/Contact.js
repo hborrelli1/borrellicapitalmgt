@@ -16,7 +16,7 @@ const Contact = () => {
             <li>
               <a href="https://wa.me/13057231684?" target="_blank" rel="noreferrer">
                 <img src={whatsappIcon} alt="WhatsApp Business" />
-                <span>+1 (305) 723-1684</span>
+                <span>+1 (305) 203-3046</span>
               </a>
             </li>
             <li>
