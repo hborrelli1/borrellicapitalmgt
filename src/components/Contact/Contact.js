@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="contact-info">
           <ul>
             <li>
-              <a href="https://wa.me/13052033064?" target="_blank" rel="noreferrer">
+              <a href="https://wa.me/13052033046?" target="_blank" rel="noreferrer">
                 <img src={whatsappIcon} alt="WhatsApp Business" />
                 <span>+1 (305) 203-3046</span>
               </a>
