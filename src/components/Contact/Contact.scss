@@ -20,7 +20,7 @@
           list-style-type: none;
           display: flex;
           padding: 20px;
-          a {
+          a, span {
             display: flex;
             text-decoration: none;
             img {
@@ -29,7 +29,6 @@
               margin-right: 20px;
             }
             span {
-              width: calc(100% - 20px);
               margin-right: 20px;
               color: #fff;
             }
@@ -37,7 +36,7 @@
           &:nth-child(odd) {
             border-right: 1px solid #fff;
             justify-content: flex-end;
-            a {
+            a, span {
               flex-flow: row-reverse;
               span {
                 margin-right: 20px;
@@ -46,6 +45,19 @@
           }
           &:hover {
             opacity: .7;
+          }
+        }
+        .ms-teams {
+          span {
+            align-items: center;
+            text-align: center;
+            img {
+              width: 30px;
+              height: 30px;
+            }
+          }
+          &:hover {
+            opacity: 1;
           }
         }
       }
@@ -57,19 +69,27 @@
       .contact-info {
         ul {
           li {
-            a {
+            a, span {
               width: 100%;
               flex-flow: column !important;
               justify-content: flex-start;
               text-align: center;
+              margin-right: 0px !important;
 
-              img, span {
+              img {
                 width: 100%;
                 margin: 0px !important;
               }
               img {
                 margin-bottom: 10px !important;
               }
+            }
+          }
+          .ms-teams {
+            span {
+              display: flex;
+              flex-flow: column !important;
+              width: 100%;
             }
           }
         }
