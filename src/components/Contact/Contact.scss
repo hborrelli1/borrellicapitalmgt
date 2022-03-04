@@ -20,7 +20,7 @@
           list-style-type: none;
           display: flex;
           padding: 20px;
-          a {
+          a, span {
             display: flex;
             text-decoration: none;
             img {
@@ -37,7 +37,7 @@
           &:nth-child(odd) {
             border-right: 1px solid #fff;
             justify-content: flex-end;
-            a {
+            a, span {
               flex-flow: row-reverse;
               span {
                 margin-right: 20px;
@@ -46,6 +46,18 @@
           }
           &:hover {
             opacity: .7;
+          }
+        }
+        .ms-teams {
+          span {
+            align-items: center;
+            img {
+              width: 30px;
+              height: 30px;
+            }
+          }
+          &:hover {
+            opacity: 1;
           }
         }
       }
