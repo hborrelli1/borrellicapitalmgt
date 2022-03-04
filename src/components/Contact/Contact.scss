@@ -29,7 +29,6 @@
               margin-right: 20px;
             }
             span {
-              width: calc(100% - 20px);
               margin-right: 20px;
               color: #fff;
             }
@@ -75,6 +74,7 @@
               flex-flow: column !important;
               justify-content: flex-start;
               text-align: center;
+              margin-right: 0px !important;
 
               img {
                 width: 100%;
