@@ -34,7 +34,7 @@ const Contact = () => {
             <li>
               <a href="https://goo.gl/maps/FPoqxpsSFbMpCEpg8" target="_blank" rel="noreferrer">
                 <img src={locationIcon} alt="Address" />
-                <span>777 Brickell Ave, 10th FL<br/>Miami, FL 33131</span>
+                <span>1221 Brickell Ave, Penthouse<br/>Miami, FL 33131</span>
               </a>
             </li>
           </ul>
