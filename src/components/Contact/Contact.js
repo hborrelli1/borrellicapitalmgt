@@ -2,6 +2,9 @@ import microsoftTeamsIcon from '../../assets/icons/microsoft-teams-icon.svg';
 import linkedinIcon from '../../assets/icons/linkedin-icon.svg';
 import mailIcon from '../../assets/icons/mail-icon.svg';
 import locationIcon from '../../assets/icons/location-icon.svg';
+import linkIcon from '../../assets/icons/link-icon.png';
+import individualsForm from '../../assets/forms/ACCTQUESTIONSNGJNT.pdf';
+import companiesForm from '../../assets/forms/CorpAccountQuestionnair&Docs.pdf';
 
 const Contact = () => {
   return (
@@ -38,6 +41,15 @@ const Contact = () => {
               </a>
             </li>
           </ul>
+        </div>
+        <div className="onboarding-forms">
+          <div className="wrapper">
+            <h3 className="sub-title">Onboarding Forms</h3>
+            <div className="form-buttons">
+              <a className="button" href={individualsForm} target="_blank">Individuals <img src={linkIcon} alt="form-link"/></a>
+              <a className="button" href={companiesForm} target="_blank">Companies <img src={linkIcon} alt="form-link"/></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
