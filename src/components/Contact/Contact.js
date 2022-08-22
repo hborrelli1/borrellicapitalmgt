@@ -32,7 +32,7 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a href="https://goo.gl/maps/FPoqxpsSFbMpCEpg8" target="_blank" rel="noreferrer">
+              <a href="https://goo.gl/maps/G2XZsxsLasjgtvrF7" target="_blank" rel="noreferrer">
                 <img src={locationIcon} alt="Address" />
                 <span>1221 Brickell Ave, Penthouse<br/>Miami, FL 33131</span>
               </a>
