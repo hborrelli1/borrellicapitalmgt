@@ -1,11 +1,14 @@
 .about {
+  .content {
+    align-items: flex-start;
+  }
   .photo-col,
   .content-col {
-    padding: 0px 50px;
+    padding: 0px 30px;
   }
 
   .photo-col {
-    width: 40%;
+    width: 50%;
     display: flex;
     align-items: center;
     img {
@@ -13,7 +16,8 @@
     }
   }
   .content-col {
-    width: 60%;
+    width: 50%;
+    
     .divider {
       width: 75%;
       height: 2px;
@@ -69,7 +73,7 @@
       padding-right: 0px;
     }
   }
-  @media  screen and (max-width: 440px) {
+  @media  screen and (max-width: 640px) {
     .content {
       flex-flow:wrap-reverse;
       .photo-col,
