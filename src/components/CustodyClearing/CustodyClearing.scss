@@ -24,6 +24,7 @@
       a {
         color: $lightest-gray;
         transition: all .3s;
+        display: inline-block;
         &:hover {
           color: $light-green
         }
