@@ -20,8 +20,18 @@
       p {
         color: $lightest-gray;
         margin-bottom: 30px;
-      }
+        a {
+          display: inline-block;
+        }
+      } 
       a {
+        color: $lightest-gray;
+        transition: all .3s;
+        &:hover {
+          color: $light-green
+        }
+      }
+      a.button {
         display: inline-block;
         background-color:$dark-green;
         padding: 5px 20px;
@@ -56,6 +66,9 @@
 
       .info {
         a {
+          display: inline-block;
+        }
+        a.button {
           text-align: center;
           display: block;
           width: fit-content;
