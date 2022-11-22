@@ -20,8 +20,15 @@
       p {
         color: $lightest-gray;
         margin-bottom: 30px;
-      }
+      } 
       a {
+        color: $lightest-gray;
+        transition: all .3s;
+        &:hover {
+          color: $light-green
+        }
+      }
+      a.button {
         display: inline-block;
         background-color:$dark-green;
         padding: 5px 20px;
