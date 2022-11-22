@@ -20,11 +20,13 @@
       p {
         color: $lightest-gray;
         margin-bottom: 30px;
+        a {
+          display: inline-block;
+        }
       } 
       a {
         color: $lightest-gray;
         transition: all .3s;
-        display: inline-block;
         &:hover {
           color: $light-green
         }
@@ -64,6 +66,9 @@
 
       .info {
         a {
+          display: inline-block;
+        }
+        a.button {
           text-align: center;
           display: block;
           width: fit-content;
