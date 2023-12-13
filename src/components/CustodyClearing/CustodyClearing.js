@@ -7,8 +7,8 @@ const CustodyClearing = () => {
         </div>
         <div className="info">
           <p>Your investments are held in a segregated account at Pershing, a subsidiary of Bank of New York Mellon's Corporation. Although this does not protect you from market-related losses, you can rest assured that in extreme cases, where a financial firm’s integrity is compromised, your assets are fully protected. Insigneo and Pershing are <a href="https://www.sipc.org/about-sipc/the-sipc-logo" target="_blank">SIPC members</a>.</p>
-          <a className="button" href="https://www.pershing.com/_global-assets/pdf/pershing-at-a-glance.pdf" target="_blank">Pershing at a Glance</a>
-          <a className="button" href="https://www.pershing.com/_global-assets/pdf/understanding-the-protection-of-client-assets.pdf" target="_blank">Pershing: Strength, Stability and Focus</a>
+          <a className="button" href="https://www.pershing.com/us/en/about/pershing-at-a-glance.html" target="_blank">Pershing at a Glance</a>
+          <a className="button" href="https://www.pershing.com/us/en/about/diversity-equity-and-inclusion.html" target="_blank">Pershing: Strength, Stability and Focus</a>
         </div>
       </div>
     </div>
