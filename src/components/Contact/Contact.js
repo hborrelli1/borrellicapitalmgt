@@ -42,7 +42,7 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        <div className="onboarding-forms">
+        {/* <div className="onboarding-forms">
           <div className="wrapper">
             <h3 className="sub-title">Onboarding Forms</h3>
             <div className="form-buttons">
@@ -50,7 +50,7 @@ const Contact = () => {
               <a className="button" href={companiesForm} target="_blank">Companies <img src={linkIcon} alt="form-link"/></a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

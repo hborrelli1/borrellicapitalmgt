@@ -1,6 +1,26 @@
 .about {
+  padding-bottom: 10px;
+  flex-flow: wrap;
   .content {
     align-items: flex-start;
+    width: 100%;
+  }
+  .disclosure {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+    p, a {
+      font-style: italic;
+      color: rgba(0,0,0,.5);
+      font-size: 14px;
+    }
+    a {
+      &:hover {
+        color: #000;
+      }
+    }
   }
   .photo-col,
   .content-col {
@@ -59,6 +79,15 @@
         cursor: pointer;
       }
     }
+    .disclaimer {
+      .normal-link {
+        background-color: unset;
+        color: $dark-green;
+        letter-spacing: normal;
+        padding: 0;
+        font-size: inherit;
+      }
+    }
   }
   @media  screen and (max-width: 900px) {
     .photo-col,
@@ -72,6 +101,9 @@
     .content-col {
       padding-right: 0px;
     }
+    .disclosure {
+      margin-top: 40px;
+    }
   }
   @media  screen and (max-width: 640px) {
     .content {
@@ -82,6 +114,9 @@
         margin: 20px 0px;
         padding: 0px;
       }
+    }
+    .disclosure {
+      margin-top: 10px;
     }
   }
 }
