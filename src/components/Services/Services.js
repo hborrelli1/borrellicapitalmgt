@@ -25,6 +25,12 @@ const Services = () => {
             <li>Alternative Investments</li>
           </ul>
         </div>
+
+        <div className="service-disclaimers">
+          <p>Past performance is not indicative of future results, that investment involves risk, and that loss of principal is possible. Always contact your Investment Professional for specific recommendations.</p>
+
+          <p>Loans are subject to credit approval, interest charges and collateral requirements. If pledged asset values decline, you may need to add collateral or positions may be liquidated at unfavorable prices.</p>
+        </div>
       </div>
     </div>
   )
