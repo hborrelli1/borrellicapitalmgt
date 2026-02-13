@@ -1,7 +1,18 @@
 .disclaimers {
   background-color: $light-gray;
+  padding-bottom: 40px;
   .content {
-    // max-width: 600px;
+    flex-flow: column;
+    h4 {
+      color: #fff;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    p {
+      margin-bottom: 20px;
+    }
     .sub-title,
     p, a, strong {
       color: $lightest-gray;
